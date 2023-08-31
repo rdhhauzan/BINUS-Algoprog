@@ -1,6 +1,5 @@
 
 ## thread-1.c 
-This file is for the first thread. It is responsible for reading the input from the user and storing it in the buffer. It also checks for the exit condition and signals the second thread to exit if the user enters "exit".
 
 Thread Title:   
 Menggunakan Program Terstruktur dan Formattted Input Output
