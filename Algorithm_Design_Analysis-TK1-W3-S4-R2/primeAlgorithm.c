@@ -29,6 +29,12 @@ int main() {
     printf("Masukkan nilai N untuk mencetak N bilangan prima pertama: ");
     scanf("%d", &N);
 
+    // Validasi input untuk mencegah ukuran array negatif atau nol
+    if (N <= 0) {
+        printf("N harus lebih besar dari 0.\n");
+        return 1;
+    }
+
     // Membuat array untuk menyimpan bilangan prima
     int primes[N];
 
